@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     colorator (1.1.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -24,6 +25,10 @@ GEM
       jekyll (~> 3.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.0.0)
+      jekyll (~> 3.1)
+    jekyll-sitemap (0.11.0)
+      addressable (~> 2.4.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.12.0)
@@ -48,6 +53,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-livereload
+  jekyll-seo-tag
+  jekyll-sitemap
   rake
 
 BUNDLED WITH

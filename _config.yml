@@ -24,4 +24,14 @@ destination: public
 sass:
   sass_dir: assets/css/modules
   style: compressed
+
+# live reload
+livereload: true
+reload_port: 5678
+
+# gems
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 exclude: ['node_modules', 'webpack', 'Gemfile', 'Gemfile.lock', 'Rakefile']
