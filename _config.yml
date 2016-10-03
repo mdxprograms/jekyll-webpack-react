@@ -21,4 +21,7 @@ github_username:  jekyll
 markdown: kramdown
 source: src
 destination: public
+sass:
+  sass_dir: assets/css/modules
+  style: compressed
 exclude: ['node_modules', 'webpack', 'Gemfile', 'Gemfile.lock', 'Rakefile']
