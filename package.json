@@ -1,26 +1,23 @@
 {
-  "name": "jekyll-webpack-react",
+  "name": "jekyll-starter",
   "version": "1.0.0",
-  "description": "A simple boilerplate for webpack and jekyll integration.",
+  "description": "A jekyll based project boilerplate.",
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allizad/jekyll-webpack.git"
+    "url": "git+https://github.com/mdxprograms/jekyll-starter.git"
   },
   "keywords": [
     "jekyll",
     "webpack",
     "react"
   ],
-  "author": "Allison Zadrozny",
+  "author": "Josh Waller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/allizad/jekyll-webpack/issues"
-  },
-  "homepage": "https://github.com/allizad/jekyll-webpack#readme",
+  "homepage": "https://github.com/mdxprograms/jekyll-starter#readme",
   "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-loader": "^6.2.4",
