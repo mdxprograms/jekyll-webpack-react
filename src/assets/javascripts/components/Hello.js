@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Hello extends Component {
   render() {
     return (
-      <div>is it though?</div>
+      <div>Find me in: src/assets/javascripts/components/</div>
     )
   }
 }

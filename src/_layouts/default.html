@@ -6,16 +6,18 @@
   <body>
 
     {% include header.html %}
-    <div id="root"></div>
 
     <div class="page-content">
       <div class="wrapper">
+
+        <div id="root"></div>
+
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-    <script type="text/javascript" src="/assets/javascripts/bundle.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/assets/bundles/bundle.js" charset="utf-8"></script>
   </body>
 
 </html>
