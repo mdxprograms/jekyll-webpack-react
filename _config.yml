@@ -32,6 +32,12 @@ reload_port: 5678
 # gems
 gems:
   - jekyll-seo-tag
+  - jekyll-autoprefixer
   - jekyll-sitemap
+
+# plugin settings
+autoprefixer:
+  browsers:
+  - last 2 versions
 
 exclude: ['node_modules', 'webpack', 'Gemfile', 'Gemfile.lock', 'Rakefile']
