@@ -1,9 +1,10 @@
 ## Jekyll Starter
 
-This starter uses webpack for react/es6
+This starter uses webpack, react, and jekyll.
 
-It also includes a Rakefile that runs multi threads
-to run `bundle exec jekyll s -L` (which includes jekyll-livereload) and `webpack -w` at the same time.
+It also includes a multi threaded rake task to sync webpack and jekyll.
+To run in dev mode: `rake s`
+To build: `rake b`
 
 ### Setup
 
