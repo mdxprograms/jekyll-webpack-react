@@ -3,7 +3,7 @@
 This starter uses webpack, react, and jekyll.
 
 It also includes a multi threaded rake task to sync webpack and jekyll.
-To run in dev mode: `rake s`
+To run in dev mode: `rake start`
 To build: `rake b`
 
 ### Setup
